@@ -25,15 +25,6 @@ week9/项目实战/
 │   ├── inference_lora.py         # LoRA推理脚本（56行）
 │   ├── data.py                   # 数据处理脚本（57行）
 │   └── download_model.py         # 模型下载脚本（15行）
-├── 📁 文档说明
-│   ├── README.md                 # 项目主说明文档
-│   ├── PROJECT_DOC_CN.md         # 中文项目文档
-│   ├── data.md                   # 数据处理说明
-│   ├── train.md                  # 训练过程说明
-│   ├── inference.md              # 推理说明
-│   ├── inference_lora.md         # LoRA推理说明
-│   ├── predict.md                # 预测脚本说明
-│   └── medical_assistant_usage.md # 医疗助手使用说明
 ├── 📁 配置文件
 │   ├── requirements.txt          # 依赖包列表
 │   ├── sample_questions.json     # 示例问题集
@@ -260,22 +251,5 @@ assistant = MedicalAssistant("./your/custom/model/path")
 - **基础模型**: [Qwen3-0.6B](https://modelscope.cn/models/Qwen/Qwen3-0.6B/summary)
 - **数据集**: [delicate_medical_r1_data](https://modelscope.cn/datasets/krisfu/delicate_medical_r1_data)
 - **训练监控**: [SwanLab](https://swanlab.cn/@ZeyiLin/qwen3-sft-medical/overview)
-- **技术文档**: [Qwen3大模型微调入门实战](https://zhuanlan.zhihu.com/p/1903848838214705484)
 
-## 贡献指南
 
-欢迎提交Issue和Pull Request来改进项目：
-1. Fork项目仓库
-2. 创建特性分支
-3. 提交更改
-4. 发起Pull Request
-
-## 许可证
-
-本项目遵循相应的开源许可证，请查看LICENSE文件了解详情。
-
----
-
-**项目维护者**: Bryce-come  
-**最后更新**: 2024年12月  
-**版本**: v1.0.0
